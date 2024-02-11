@@ -32,49 +32,125 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Intern at KnowX Innovations Pvt. Ltd.",
+    location: "Bangalore, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
+      "I graduated after 4 years of studying. I immediately found a job as an associate software engineer.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2018",
+  },
+  {
+    title: "Intern at Agiledge Process Solutions Pvt. Ltd.",
+    location: "Bangalore, India",
+    description:
+      "I graduated after 4 years of studying. I immediately found a job as an associate software engineer.",
+    icon: React.createElement(CgWorkAlt),
     date: "2019",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Graduated with a Bachelor's degree in Electronics and Communication Engineering",
+    location: "NITK Surathkal, India",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "I graduated after 4 years of studying. I immediately found a job as an associate software engineer.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2016-2020",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Associate Software Engineer",
+    location: "Bangalore, India",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I worked as a software enggineer at DXC Technology. I upskilled in technologies like Azure, AWS, SQL and Python.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2020 - 2021",
+  },
+  {
+    title: "Graduated with a Master's degree in Computer Engineering",
+    location: "Tempe, AZ",
+    description:
+      "I graduated after 2 years of studying. I'm volunteering at EPICS ASU.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2021-2023",
+  },
+  {
+    title: "Developer at EPICS ASU",
+    location: "Tempe, AZ",
+    description:
+      "I'm volunteering at EPICS ASU. I'm working on a project called Message Everywhere. I'm using JavaScript, Python and Bubble.io.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    title: "EduScan V2",
+    description: "A classroom assistant for seamless student identification and academic data retrieval using open-source solutions",
+    tags: ["Python", "OpenFaaS", "AWS", "Docker", "Kubernetes"],
   },
   {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    title: "EduScan",
+    description: "A classroom assistant for seamless student identification and academic data retrieval",
+    tags: ["Python", "AWS", "Docker", "Streamlit"],
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    title: "Playlistify",
+    description: "A responsive web application for creating custom playlists using Spotify API",
+    tags: ["JavaScript", "React.js", "HTML", "Tailwind CSS", "Git", "Spotify API"],
+  },
+  {
+    title: "Cloud Vision",
+    description: "An elastic image recognition service built using AWS EC2, S3, SQS",
+    tags: ["Python", "AWS", "Flask"],
+  },
+  {
+    title: "Foodie Finds",
+    description: "A responsive web application for users to search for restaurants",
+    tags: ["JavaScript", "Node.js", "React.js", "HTML", "CSS", "Git", "Yelp API"],
+  },
+  {
+    title: "Sparky's Money Rush",
+    description: "An immersive and interactive AR-based Snapchat filter game designed exclusively for the Devil's Invent Hackathon",
+    tags: ["LensStudio", "SnapAR"],
+  },
+  {
+    title: "Expresso",
+    description: "A full back-end CRUD API for local cafe",
+    tags: ["JavaScript", "Node.js", "Express.js", "SQL", "HTML", "CSS", "Git"],
+  },
+  {
+    title: "Boss Machine",
+    description: "An API based unique management application for accomplished minions",
+    tags: ["JavaScript", "Node.js", "Express.js", "HTML", "CSS", "Git"],
+  },
+  {
+    title: "The Scoop",
+    description: "A web application for users to post articles, comment and upvote/downvote them.",
+    tags: ["JavaScript", "Node.js", "YAML", "HTML", "CSS", "Git"],
+  },
+  {
+    title: "Rock-Paper-Scissors",
+    description: "A 3-round variation of Rock-Paper-Scissors as an interactive web game",
+    tags: ["JavaScript", "Node.js", "HTML", "CSS", "Git"],
+  },
+  {
+    title: "Chatter Box",
+    description: "A real-time chatroom application leveraging WebSockets",
+    tags: ["JavaScript", "Node.js", "HTML", "CSS", "Git"],
+  },
+  {
+    title: "Branch Predictor",
+    description: "A machine learning based branch predictor for optimized performance",
+    tags: ["C", "Git"],
+  },
+  {
+    title: "Audio Synthesizer",
+    description: "Neural Network based audio synthesizer to mix and produce custom audio clips",
+    tags: ["Python"],
+  },
+  {
+    title: "Tic Tac Toe",
+    description: "A simple python terminal based Tic Tac Toe game",
+    tags: ["Python", "Git"],
   },
 ] as const;
 
