@@ -103,7 +103,7 @@ const ProjectCard = ({ project }: { project: Project }) => {
             <p className="text-sm text-muted-foreground">{project.description}</p>
             <div className="mt-2 flex flex-wrap gap-1">
                 {project.skills.map((skill) => (
-                    <div className="bg-muted text-primary px-1 py-1 rounded-md text-xs font-medium">
+                    <div key={skill} className="bg-muted text-primary px-1 py-1 rounded-md text-xs font-medium">
                         {skill}
                     </div>
                 ))}

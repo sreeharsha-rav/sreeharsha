@@ -36,7 +36,7 @@ export default function Contact() {
             <div className="mx-auto max-w-md space-y-8">
                 <div className="space-y-2 text-center">
                     <h2 className="text-3xl font-bold">Get in Touch</h2>
-                    <p className="text-muted-foreground">Fill out the form below and I'll get back to you as soon as possible.</p>
+                    <p className="text-muted-foreground">Fill out the form below and I&apos;ll get back to you as soon as possible.</p>
                 </div>
                 <form className="space-y-4" onSubmit={handleSubmit}>
                     <div className="grid grid-cols-2 gap-4">
