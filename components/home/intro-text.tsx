@@ -9,11 +9,11 @@ export default function IntroText() {
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
         >
-            <span className="font-semibold">Hello, I'm Sreeharsha.</span>
+            <span className="font-semibold">Hello, I&apos;m Sreeharsha.</span>
             <span className="block">
-                I'm a <span className="font-semibold">Software Developer</span> with <span className="font-semibold">3+ years</span> of experience.
+                I&apos;m a <span className="font-semibold">Software Developer</span> with <span className="font-semibold">3+ years</span> of experience.
             </span>
-            <span className="block">I like to build <i>scalable microservices, RESTful APIs & responsive web applications</i>.</span>
+            <span className="block">I like to build <i>scalable microservices, RESTful APIs &amp; responsive web applications</i>.</span>
         </motion.h1>
     );
 }

@@ -119,8 +119,8 @@ export default function RecentProjects() {
             <div className="flex items-center justify-between w-full p-4">
                 <ScrollArea className="flex flex-wrap max-h-96 overflow-y-auto hover:bg-gray-100 rounded-md mb-10">
                     {projects.map((project) => (
-                        <div className="p-2">
-                            <ProjectCard project={project} key={project.name} />
+                        <div key={project.name} className="p-2">
+                            <ProjectCard project={project} />
                         </div>
                     ))}
                 </ScrollArea>

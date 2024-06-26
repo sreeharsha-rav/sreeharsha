@@ -42,7 +42,7 @@ const ArticleCard = ({ article }: { article: Article }) => {
             </div>
             <div className="mt-2 flex flex-wrap gap-1">
                 {article.tags.map((tag) => (
-                    <Badge variant="secondary">{tag}</Badge>
+                    <Badge key={tag} variant="secondary">{tag}</Badge>
                 ))}
             </div>
         </>
