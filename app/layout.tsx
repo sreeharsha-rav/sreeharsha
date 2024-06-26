@@ -1,42 +1,38 @@
-import Header from "@/components/header";
-import "./globals.css";
-import { Inter } from "next/font/google";
-import ActiveSectionContextProvider from "@/context/active-section-context";
-import Footer from "@/components/footer";
-import ThemeSwitch from "@/components/theme-switch";
-import ThemeContextProvider from "@/context/theme-context";
-import { Toaster } from "react-hot-toast";
+import "./global.css";
+import type { Metadata } from "next";
+import { Inter as FontSans } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+import { cn } from "@/lib/utils";
+import Navbar from "@/components/navbar";
 
-export const metadata = {
-  title: "Sreeharsha Raveendra | Personal Portfolio",
-  description: "Sreeharsha is a software developer with 3 years of experience.",
+export const metadata: Metadata = {
+  title: "Sreeharsha's Portfolio",
+  description: "A software developer with a passion for solving problems and building apps. A portfolio website built with Next.js",
 };
+
+const fontSans = FontSans({
+  subsets: ["latin"],
+  variable: "--font-sans",
+});
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
-    <html lang="en" className="!scroll-smooth">
+    <html lang="en" suppressHydrationWarning>
+      <head />
       <body
-        className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
+        className={cn(
+          "min-h-screen bg-background font-sans antialiased",
+          fontSans.variable
+        )}
       >
-        <div className="bg-[#f2f2f2] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#828282]"></div>
-        <div className="bg-[#e0e0e0] absolute top-[-1rem] -z-10 left-[-35rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#bdbdbd]"></div>
-
-        <ThemeContextProvider>
-          <ActiveSectionContextProvider>
-            <Header />
-            {children}
-            <Footer />
-
-            <Toaster position="top-right" />
-            <ThemeSwitch />
-          </ActiveSectionContextProvider>
-        </ThemeContextProvider>
+        <Navbar />
+        <div className="container pt-28 mx-auto px-4 sm:px-6 lg:px-8">
+          {children}
+        </div>
       </body>
     </html>
   );
