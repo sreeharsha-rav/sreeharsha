@@ -10,9 +10,9 @@ return (
         <div className="pt-5 grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="flex flex-col gap-2">
                 <Experience />
-                <Education />
             </div>
             <div className="flex flex-col gap-2">
+                <Education />
                 <Skills />
                 {/* TODO: <Certifications /> */}
             </div>
