@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
+import { EnvelopeClosedIcon } from "@radix-ui/react-icons";
 
 const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -54,6 +55,7 @@ export default function Contact() {
                     <Textarea id="message" placeholder="Your message" className="min-h-[120px]" required />
                     </div>
                     <Button type="submit" className="w-full">
+                        <EnvelopeClosedIcon className="h-4 w-4 mr-2" />
                         Submit
                     </Button>
                 </form>
