@@ -1,4 +1,5 @@
 import { Separator } from "../ui/separator";
+import { Accordion } from "../ui/accordion";
 
 export default function Certifications() {
     return (
