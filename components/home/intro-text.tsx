@@ -13,7 +13,8 @@ export default function IntroText() {
             <span className="block">
                 I&apos;m a <span className="font-semibold">Software Developer</span> with <span className="font-semibold">3+ years</span> of experience.
             </span>
-            <span className="block">I like to build <i>scalable microservices, RESTful APIs &amp; responsive web applications</i>.</span>
+            <span className="block">I like to build <i>reactive, scalable</i> apps with <i>RESTful APIs, microservices</i></span>
+            <span className="block">and <i>responsive web design</i>.</span>
         </motion.h1>
     );
 }

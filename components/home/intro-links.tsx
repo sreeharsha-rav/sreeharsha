@@ -47,7 +47,7 @@ export default function IntroLinks() {
             >   
 
                 <Button variant="link">
-                    <a className="flex items-center gap-2" href="/Sreeharsha_Resume.pdf" target="_blank">
+                    <a className="flex items-center gap-2" href="/SreeharshaRaveendra.pdf" target="_blank">
                         View Resume{" "}
                         <OpenInNewWindowIcon className="mr-2 h-4 w-4"/>
                     </a>

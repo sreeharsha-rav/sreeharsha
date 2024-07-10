@@ -1,5 +1,12 @@
 const projects_data = [
     {
+        "name": "Meal Map API",
+        "description": "A reactive API for meal planning and recipe management with Spring Webflux and R2DBC",
+        "url": "https://github.com/sreeharsha-rav/java_projects/tree/main/meal-map",
+        "skills": ["Java", "Spring Webflux", "R2DBC", "Postgres", "MongoDB", "Postman"],
+        "date": "July 2024"
+    },
+    {
         "name": "E-Commerce Microservices",
         "description": "A simple e-commerce application built using microservices architecture with Spring Boot and Spring Cloud",
         "url": "https://github.com/sreeharsha-rav/java_projects/tree/main/e-commerce-app",
