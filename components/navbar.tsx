@@ -1,10 +1,14 @@
+"use client";
+
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 const styles = {
     wrapper: "container mx-auto flex h-16 items-center justify-between px-4 md:px-6",
     nav: "flex w-full justify-center",
-    navItems: "flex items-center gap-6 rounded-md border border-input bg-primary px-4 py-2 shadow-md",
-    navLink: "text-sm text-secondary font-medium hover:underline hover:underline-offset-4 transition-colors duration-200 ease-in-out"
+    navItems: "flex items-center rounded-md border border-input bg-primary shadow-md",
+    navLink: "text-sm text-muted font-medium hover:bg-blue-800 hover:text-white px-4 py-2 rounded transition-colors duration-200 ease-in-out",
+    activeLink: "text-sm text-white font-medium bg-blue-700 hover:bg-blue-700 hover:text-white px-4 py-2 rounded transition-colors duration-200 ease-in-out",
 };
 
 const Navbar = () => {
@@ -13,16 +17,16 @@ const Navbar = () => {
             <div className={styles.wrapper}>
                 <nav className={styles.nav}>
                 <div className={styles.navItems}>
-                    <Link href="/" className={styles.navLink}>
+                    <Link href="/" className={`${usePathname() === '/' ? styles.activeLink : styles.navLink}`}>
                         <span>Home</span>
                     </Link>
-                    <Link href="/about" className={styles.navLink}>
+                    <Link href="/about" className={`${usePathname() === '/about' ? styles.activeLink : styles.navLink}`}>
                         <span>About</span>
                     </Link>
-                    <Link href="/projects" className={styles.navLink}>
+                    <Link href="/projects" className={`${usePathname() === '/projects' ? styles.activeLink : styles.navLink}`}>
                         <span>Projects</span>
                     </Link>
-                    <Link href="/contact" className={styles.navLink}>
+                    <Link href="/contact" className={`${usePathname() === '/contact' ? styles.activeLink : styles.navLink}`}>
                         <span>Contact</span>
                     </Link>
                 </div>
