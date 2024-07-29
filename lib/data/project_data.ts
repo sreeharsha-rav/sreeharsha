@@ -1,5 +1,12 @@
 const projects_data = [
     {
+        "name": "Tic Tac Toe",
+        "description": "A simple Tic Tac Toe game in React with a computer opponent. Documentation included.",
+        "url": "https://github.com/sreeharsha-rav/frontend-projects/tree/main/tic-tac-toe",
+        "skills": ["React", "TypeScript", "Tailwind CSS", "JSDoc", "Vite"],
+        "date": "July 2024"
+    },
+    {
         "name": "Meal Map API",
         "description": "A reactive API for meal planning and recipe management with Spring Webflux and R2DBC",
         "url": "https://github.com/sreeharsha-rav/java_projects/tree/main/meal-map",

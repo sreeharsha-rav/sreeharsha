@@ -47,13 +47,13 @@ Live Site: [https://www.sreeharsha.vercel.app](https://www.sreeharsha.vercel.app
 
 ### Roadmap
 
-[] - Add recent project cards and articles to home page as a carousel auto-slider
-[] - Add certifications to about page, use accordion to show more details
-[] - UI adjustments in projects page
-[] - UI show current page highlight option in navbar
-[] - UI enhancements to projects page, just view all projects and articles with scroll loading or pagination
-[] - Add pictures to project cards
-[] - Optimize loading time and route rendering
-[] - Imlement partial server-side rendering
-[] - Add animation to Project cards, Skills, and Contact form
-[] - Set up live updates for articles and projects
+- [ ] Add recent project cards and articles to home page as a carousel auto-slider
+- [ ] Add certifications to about page, use accordion to show more details
+- [ ] UI adjustments in projects page
+- [ ] UI show current page highlight option in navbar
+- [ ] UI enhancements to projects page, just view all projects and articles with scroll loading or pagination
+- [ ] Add pictures to project cards
+- [ ] Optimize loading time and route rendering
+- [ ] Imlement partial server-side rendering
+- [ ] Add animation to Project cards, Skills, and Contact form
+- [ ] Set up live updates for articles and projects
