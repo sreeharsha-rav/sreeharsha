@@ -1,5 +1,47 @@
 const projects_data = [
     {
+        "name": "NeoChat",
+        "description": "A Retrieval-Augmented-Generation (RAG) chatbot starter.",
+        "url": "https://ai-apps-mu.vercel.app/",
+        "skills": ["Vue", "TypeScript", "Langchain", "OpenAI", "Nuxt", "NeonDB", "TailwindCSS"],
+        "date": "Sept 2024"
+    },
+    {
+        "name": "Calculator",
+        "description": "A simple calculator that can perform basic arithmetic operations built using Vue.js.",
+        "url": "https://vue-calculator.netlify.app/",
+        "skills": ["Vue", "TypeScript", "Vite", "TailwindCSS"],
+        "date": "Aug 2024"
+    },
+    {
+        "name": "Weather App",
+        "description": "A simple weather app that uses the OpenWeatherMap API to get the weather data for a given city.",
+        "url": "https://brilliant-rabanadas-fc36b6.netlify.app",
+        "skills": ["Vue", "TypeScript", "Vite", "TailwindCSS"],
+        "date": "Aug 2024"
+    },
+    {
+        "name": "Reddit Client",
+        "description": "A simple clone of Reddit Client built with React Server Components using Next.js.",
+        "url": "https://github.com/sreeharsha-rav/frontend-projects/tree/main/reddit-client",
+        "skills": ["React", "TypeScript", "NextJS"],
+        "date": "Aug 2024"
+    },
+    {
+        "name": "Pokemon GraphQL",
+        "description": "This is a simple GraphQL client for the Pokémon API. It displays a list of Pokémon and their details from a GraphQL server.",
+        "url": "https://github.com/sreeharsha-rav/frontend-projects/tree/main/pokemon-graphql",
+        "skills": ["React", "GraphQL", "Vite", "TailwindCSS"],
+        "date": "July 2024"
+    },
+    {
+        "name": "Langchain Chat",
+        "description": "A simple chat bot used to chat with document built using Langchain, OpenAI and Supabase.",
+        "url": "https://github.com/sreeharsha-rav/ai-apps/tree/main/langchain-chat",
+        "skills": ["Javascript", "Langchain", "OpenAI", "Supabase"],
+        "date": "Aug 2024"
+    },
+    {
         "name": "Tic Tac Toe",
         "description": "A simple Tic Tac Toe game in React with a computer opponent. Documentation included.",
         "url": "https://github.com/sreeharsha-rav/frontend-projects/tree/main/tic-tac-toe",
@@ -7,10 +49,31 @@ const projects_data = [
         "date": "July 2024"
     },
     {
-        "name": "Meal Map API",
-        "description": "A reactive API for meal planning and recipe management with Spring Webflux and R2DBC",
-        "url": "https://github.com/sreeharsha-rav/java_projects/tree/main/meal-map",
-        "skills": ["Java", "Spring Webflux", "R2DBC", "Postgres", "MongoDB", "Postman"],
+        "name": "Reddit Minimal",
+        "description": "A minimal clone of Reddit using React hooks.",
+        "url": "https://github.com/sreeharsha-rav/frontend-projects/tree/main/reddit-minimal",
+        "skills": ["React", "TypeScript", "Vite", "TailwindCSS"],
+        "date": "Aug 2024"
+    },
+    {
+        "name": "Expense Tracker",
+        "description": "A simple expense tracker built with Vue 3 and TypeScript.",
+        "url": "https://sreeharsha-rav.github.io/frontend-projects/
+        "skills": ["Vue", "TypeScript", "Vite", "TailwindCSS"],
+        "date": "Aug 2024"
+    },
+    {
+        "name": "Vue Blog",
+        "description": "A minimal blog built with Vue.js and Tailwind CSS. A development project to learn Vue 3 Composition API, Pinia, and Vue Router.",
+        "url": "https://brilliant-rabanadas-fc36b6.netlify.app",
+        "skills": ["Vue", "TypeScript", "Vite", "TailwindCSS"],
+        "date": "Aug 2024"
+    },
+    {
+        "name": "House Listing",
+        "description": "A house listing application that allows users to view a list of house for rent and their details.",
+        "url": "https://github.com/sreeharsha-rav/frontend-projects/blob/main/angular-apps/projects/house-list/README.md",
+        "skills": ["Angular", "TailwindCSS", "Typescript"],
         "date": "July 2024"
     },
     {
@@ -19,6 +82,13 @@ const projects_data = [
         "url": "https://github.com/sreeharsha-rav/java_projects/tree/main/e-commerce-app",
         "skills": ["Java", "Spring Boot", "Spring Cloud", "Eureka", "MongoDB", "MySQL", "Hibernate", "JWT", "Keycloak", "Postman"],
         "date": "2024"
+    },
+    {
+        "name": "Meal Map API",
+        "description": "A reactive API for meal planning and recipe management with Spring Webflux and R2DBC",
+        "url": "https://github.com/sreeharsha-rav/java_projects/tree/main/meal-map",
+        "skills": ["Java", "Spring Webflux", "R2DBC", "Postgres", "MongoDB", "Postman"],
+        "date": "July 2024"
     },
     {
         "name": "Book Management CRUD",
