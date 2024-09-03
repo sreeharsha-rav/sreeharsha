@@ -1,10 +1,10 @@
 # My Portfolio
 
-## Description 
+## Description
 
 This is my portfolio. It contains information about me, my projects, and contact communication.
 
-Latest Update: 07-10-2024
+Latest Update: 09-02-2024
 Live Site: [https://www.sreeharsha.vercel.app](https://www.sreeharsha.vercel.app)
 
 ## Technologies
@@ -66,15 +66,14 @@ Any static assets, like images, can be placed in the `public/` directory.
 
 All commands are run from the root of the project, from a terminal:
 
-| Command                    | Action                                           |
-| :------------------------  | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm run dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm run build`           | Build your production site to `./dist/`          |
-| `pnpm run preview`         | Preview your build locally, before deploying     |
-| `pnpm run format`          | Format your code with Prettier                   |
-| `pnpm run lint`            | Lint your code with ESLint                       |
-
+| Command            | Action                                       |
+| :----------------- | :------------------------------------------- |
+| `pnpm install`     | Installs dependencies                        |
+| `pnpm run dev`     | Starts local dev server at `localhost:4321`  |
+| `pnpm run build`   | Build your production site to `./dist/`      |
+| `pnpm run preview` | Preview your build locally, before deploying |
+| `pnpm run format`  | Format your code with Prettier               |
+| `pnpm run lint`    | Lint your code with ESLint                   |
 
 ### Roadmap
 
