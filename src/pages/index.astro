@@ -2,13 +2,19 @@
 import IntroImage from "@/components/home/intro-image";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import IntroLinks from "@/components/home/intro-links";
+import IntroText from "@/components/home/intro-text";
+import { CarouselSize } from "@/components/home/featured";
 
 const pageTitle = "Sreeharsha Raveendra";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <div class="pt-28 ">
-  <IntroImage client:load />
-  <IntroLinks client:load />
-</div>
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <IntroImage client:load />
+    <IntroText client:load />
+    <div class="flex w-full justify-center">
+      <CarouselSize client:load />
+    </div>
+    <IntroLinks client:load />
+  </div>
 </BaseLayout>
