@@ -58,7 +58,7 @@ const projects_data = [
     {
         "name": "Expense Tracker",
         "description": "A simple expense tracker built with Vue 3 and TypeScript.",
-        "url": "https://sreeharsha-rav.github.io/frontend-projects/
+        "url": "https://sreeharsha-rav.github.io/frontend-projects/",
         "skills": ["Vue", "TypeScript", "Vite", "TailwindCSS"],
         "date": "Aug 2024"
     },
