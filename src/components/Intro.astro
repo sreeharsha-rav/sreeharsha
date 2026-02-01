@@ -1,0 +1,59 @@
+---
+import { OpenInNewWindowIcon } from "@radix-ui/react-icons";
+---
+
+<section class="flex flex-col items-center justify-center pb-10 animate">
+    <div class="flex items-center justify-center">
+        <div class="relative">
+            <div class="animate show">
+                <img
+                    src="/face_emoji.jpg"
+                    alt="Sreeharsha Animated Portrait"
+                    width="200"
+                    height="200"
+                    class="h-32 w-32 rounded-full object-cover shadow-xl"
+                />
+            </div>
+            <span
+                class="absolute bottom-0 right-0 text-4xl animate show"
+                style="transition-delay: 200ms;"
+            >
+                👋
+            </span>
+        </div>
+    </div>
+
+    <div
+        class="flex flex-col gap-4 text-center items-center justify-center mt-3 animate"
+    >
+        <h1 class="text-2xl font-semibold text-black dark:text-white">
+            Hi, I'm Sreeharsha
+        </h1>
+        <section>
+            <article class="max-w-[48rem] mx-auto leading-relaxed">
+                <p class="mb-4 text-black dark:text-white">
+                    I'm a <b>Software Engineer</b> specializing in <b
+                        >AI-first solutions</b
+                    >. I build <i class="font-serif">intelligent, user-friendly</i
+                    > applications leveraging <i class="font-serif"
+                        >Large Language Models, RAG(Retrieval-Augmented Generation), Agentic Workflows</i
+                    > and
+                    <i class="font-serif">scalable cloud architecture</i>.
+                </p>
+            </article>
+        </section>
+    </div>
+
+    <div
+        class="mt-4 flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium animate"
+    >
+        <a
+            class="flex items-center gap-2 text-primary hover:underline text-sm font-medium dark:text-white text-black underline decoration-black/50 dark:decoration-white/50 underline-offset-4"
+            href="/SreeharshaRaveendra.pdf"
+            target="_blank"
+        >
+            View Resume
+            <OpenInNewWindowIcon className="mr-2 h-4 w-4" />
+        </a>
+    </div>
+</section>
