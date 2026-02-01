@@ -1,0 +1,312 @@
+[
+    {
+        "title": "ACP Chatbot",
+        "description": "ACP (Agentic Commerce Protocol) implementation using OpenAI and Shopify Catalog MCP tools.",
+        "repoURL": "https://github.com/sreeharsha-rav/ai-apps/tree/main/acp-terminal-chat",
+        "skills": [
+            "Python",
+            "OpenAI",
+            "MCP"
+        ],
+        "date": "2026-01-01"
+    },
+    {
+        "title": "Terminal Chat",
+        "description": "Terminal based LLM chat application with streaming using OpenAI.",
+        "repoURL": "https://github.com/sreeharsha-rav/ai-apps/tree/llm-chat-2/terminal-chat",
+        "skills": [
+            "Python",
+            "OpenAI"
+        ],
+        "date": "2025-12-01"
+    },
+    {
+        "title": "LLM Chat",
+        "description": "Full-stack starter LLM chat application with streaming using OpenAI and Langchain.",
+        "repoURL": "https://github.com/sreeharsha-rav/ai-apps/tree/llm-chat-2/llm-chat-2",
+        "skills": [
+            "Python",
+            "OpenAI",
+            "FastAPI",
+            "Next.js",
+            "Zustand",
+            "React Query"
+        ],
+        "date": "2025-10-01"
+    },
+    {
+        "title": "Chat with Spaces",
+        "description": "RAG with an organized Knowledge Base on Azure Storage Container using Azure AI Search.",
+        "repoURL": "https://colab.research.google.com/drive/1R0MpKT_Z0PnTobOC9zlKOxXeB5b0bIh3?usp=sharing",
+        "skills": [
+            "Python",
+            "Langchain",
+            "Azure Storage Container",
+            "Azure AI Search",
+            "OpenAI"
+        ],
+        "date": "2025-09-01"
+    },
+    {
+        "title": "Secure Web Scraping with Google Search",
+        "description": "Scraping web pages using Google Search API.",
+        "repoURL": "https://colab.research.google.com/drive/1RcufTUdP0lFObp4bj1EVsbJqk4jk4VPV?usp=sharing",
+        "skills": [
+            "Python",
+            "Langchain",
+            "Google Search API",
+            "OpenAI"
+        ],
+        "date": "2025-08-01"
+    },
+    {
+        "title": "Comprehensive Document Analysis",
+        "description": "Advanced document analysis (SEC Form 10k, M&A Agreements) using Langchain and Azure OpenAI.",
+        "repoURL": "https://colab.research.google.com/drive/1YH7RYlfyyBfKr8t1M3fMnltA7H4Bq5LB?usp=sharing",
+        "skills": [
+            "Python",
+            "Langchain",
+            "Azure",
+            "OpenAI"
+        ],
+        "date": "2025-10-01"
+    },
+    {
+        "title": "Multi-Stage Document Analysis",
+        "description": "Demonstration of multi-stage document analysis using an assistant based approach with Langchain and OpenAI.",
+        "repoURL": "https://colab.research.google.com/drive/1ZB7fxWTzNJtMNR9LOEmKvyvaOrYr1OfC?usp=sharing",
+        "skills": [
+            "Python",
+            "Langchain",
+            "OpenAI"
+        ],
+        "date": "2025-10-01"
+    },
+    {
+        "title": "Calculator",
+        "description": "A simple calculator that can perform basic arithmetic operations built using Vue.js.",
+        "repoURL": "https://vue-calculator.netlify.app/",
+        "skills": [
+            "Vue",
+            "TypeScript",
+            "Vite",
+            "TailwindCSS"
+        ],
+        "date": "2024-08-01"
+    },
+    {
+        "title": "Weather App",
+        "description": "A simple weather app that uses the OpenWeatherMap API to get the weather data for a given city.",
+        "repoURL": "https://brilliant-rabanadas-fc36b6.netlify.app",
+        "skills": [
+            "Vue",
+            "TypeScript",
+            "Vite",
+            "TailwindCSS"
+        ],
+        "date": "2024-08-01"
+    },
+    {
+        "title": "Pokemon GraphQL",
+        "description": "This is a simple GraphQL client for the Pokémon API. It displays a list of Pokémon and their details from a GraphQL server.",
+        "repoURL": "https://github.com/sreeharsha-rav/frontend-projects/tree/main/pokemon-graphql",
+        "skills": [
+            "React",
+            "GraphQL",
+            "Vite",
+            "TailwindCSS"
+        ],
+        "date": "2024-07-01"
+    },
+    {
+        "title": "Langchain Chat",
+        "description": "A simple chat bot used to chat with document built using Langchain, OpenAI and Supabase.",
+        "repoURL": "https://github.com/sreeharsha-rav/ai-apps/tree/main/langchain-chat",
+        "skills": [
+            "Javascript",
+            "Langchain",
+            "OpenAI",
+            "Supabase"
+        ],
+        "date": "2024-08-01"
+    },
+    {
+        "title": "Tic Tac Toe",
+        "description": "A simple Tic Tac Toe game in React with a computer opponent. Documentation included.",
+        "repoURL": "https://github.com/sreeharsha-rav/frontend-projects/tree/main/tic-tac-toe",
+        "skills": [
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "JSDoc",
+            "Vite"
+        ],
+        "date": "2024-07-01"
+    },
+    {
+        "title": "Reddit Minimal",
+        "description": "A minimal clone of Reddit using React hooks.",
+        "repoURL": "https://github.com/sreeharsha-rav/frontend-projects/tree/main/reddit-minimal",
+        "skills": [
+            "React",
+            "TypeScript",
+            "Vite",
+            "TailwindCSS"
+        ],
+        "date": "2024-08-01"
+    },
+    {
+        "title": "Expense Tracker",
+        "description": "A simple expense tracker built with Vue 3 and TypeScript.",
+        "repoURL": "https://sreeharsha-rav.github.io/frontend-projects/",
+        "skills": [
+            "Vue",
+            "TypeScript",
+            "Vite",
+            "TailwindCSS"
+        ],
+        "date": "2024-08-01"
+    },
+    {
+        "title": "E-Commerce Microservices",
+        "description": "A simple e-commerce application built using microservices architecture with Spring Boot and Spring Cloud",
+        "repoURL": "https://github.com/sreeharsha-rav/java_projects/tree/main/e-commerce-app",
+        "skills": [
+            "Java",
+            "Spring Boot",
+            "Spring Cloud",
+            "Eureka",
+            "MongoDB",
+            "MySQL",
+            "Hibernate",
+            "JWT",
+            "Keycloak",
+            "Postman"
+        ],
+        "date": "2024-01-01"
+    },
+    {
+        "title": "EduScan V2",
+        "description": "A classroom assistant for seamless student identification and academic data retrieval using open-source solutions",
+        "repoURL": "https://github.com/sreeharsha-rav/openfaas-eduscan",
+        "skills": [
+            "Python",
+            "OpenFaaS",
+            "AWS",
+            "Docker",
+            "Kubernetes"
+        ],
+        "date": "2023-09-01"
+    },
+    {
+        "title": "EduScan",
+        "description": "A classroom assistant for seamless student identification and academic data retrieval",
+        "repoURL": "https://github.com/sreeharsha-rav/aws-eduscan",
+        "skills": [
+            "Python",
+            "AWS",
+            "Docker",
+            "Streamlit"
+        ],
+        "date": "2023-09-01"
+    },
+    {
+        "title": "Playlistify",
+        "description": "A responsive web application for creating custom playlists using Spotify API",
+        "repoURL": "https://github.com/sreeharsha-rav/react-apps/tree/main/playlistify",
+        "skills": [
+            "JavaScript",
+            "React.js",
+            "HTML",
+            "Tailwind CSS",
+            "Git",
+            "Spotify API"
+        ],
+        "date": "2023-01-01"
+    },
+    {
+        "title": "Cloud Vision",
+        "description": "An elastic image recognition service built using AWS EC2, S3, SQS",
+        "repoURL": "https://github.com/sreeharsha-rav/aws_cloudvision/tree/main",
+        "skills": [
+            "Python",
+            "AWS",
+            "Flask"
+        ],
+        "date": "2023-09-01"
+    },
+    {
+        "title": "Foodie Finds",
+        "description": "A responsive web application for users to search for restaurants",
+        "repoURL": "https://github.com/sreeharsha-rav/react-apps/tree/main/foodie_finds",
+        "skills": [
+            "JavaScript",
+            "Node.js",
+            "React.js",
+            "HTML",
+            "CSS",
+            "Git",
+            "Yelp API"
+        ],
+        "date": "2023-01-01"
+    },
+    {
+        "title": "Sparky's Money Rush",
+        "description": "An immersive and interactive AR-based Snapchat filter game designed exclusively for the Devil's Invent Hackathon",
+        "repoURL": "https://drive.google.com/file/d/1PNd5a5Cod6yhtPHMyuim235B0oRBNcVP/view?usp=drive_link",
+        "skills": [
+            "LensStudio",
+            "SnapAR"
+        ],
+        "date": "2023-09-01"
+    },
+    {
+        "title": "The Scoop",
+        "description": "A web application for users to post articles, comment and upvote/downvote them.",
+        "repoURL": "https://github.com/sreeharsha-rav/javascript_projects/tree/main/the_scoop",
+        "skills": [
+            "JavaScript",
+            "Node.js",
+            "YAML",
+            "HTML",
+            "CSS",
+            "git"
+        ],
+        "date": "2023-01-01"
+    },
+    {
+        "title": "Rock-Paper-Scissors",
+        "description": "A 3-round variation of Rock-Paper-Scissors as an interactive web game",
+        "repoURL": "https://github.com/sreeharsha-rav/javascript_projects/tree/main/rps_x99",
+        "skills": [
+            "JavaScript",
+            "Node.js",
+            "HTML",
+            "CSS",
+            "git"
+        ],
+        "date": "2023-01-01"
+    },
+    {
+        "title": "Branch Predictor",
+        "description": "A machine learning based branch predictor for optimized performance",
+        "repoURL": "https://drive.google.com/file/d/16QSpOO0zC3UPM8t2_ZoT04LwgM6OYqEw/view?usp=drive_link",
+        "skills": [
+            "C",
+            "git"
+        ],
+        "date": "2022-01-01"
+    },
+    {
+        "title": "Audio Synthesizer",
+        "description": "Neural Network based audio synthesizer to mix and produce custom audio clips",
+        "repoURL": "https://drive.google.com/file/d/1AgE_OfJ8G3XV_DNutRvzoiOpEvabR5SH/view?usp=drive_link",
+        "skills": [
+            "Python",
+            "TensorFlow",
+            "Keras",
+            "git"
+        ],
+        "date": "2022-09-01"
+    }
+]

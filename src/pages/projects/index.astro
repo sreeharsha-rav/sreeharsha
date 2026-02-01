@@ -1,0 +1,53 @@
+---
+import { getCollection } from "astro:content";
+import PageLayout from "@layouts/PageLayout.astro";
+import Container from "@components/Container.astro";
+import ProjectListRow from "@components/ProjectListRow.astro";
+import { PROJECTS } from "@consts";
+
+const projects = (await getCollection("projects"))
+  .filter((project) => !project.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+const groupedProjects = projects.reduce(
+  (acc, project) => {
+    const year = project.data.date.getFullYear().toString();
+    if (!acc[year]) acc[year] = [];
+    acc[year].push(project);
+    return acc;
+  },
+  {} as Record<string, typeof projects>,
+);
+
+const sortedYears = Object.keys(groupedProjects).sort(
+  (a, b) => parseInt(b) - parseInt(a),
+);
+---
+
+<PageLayout title={PROJECTS.TITLE} description={PROJECTS.DESCRIPTION}>
+  <Container>
+    <div class="space-y-10">
+      <div class="space-y-10">
+        <div class="animate font-semibold text-black dark:text-white">
+          Projects
+        </div>
+        <div class="space-y-8">
+          {
+            sortedYears.map((year) => (
+              <section class="animate">
+                <h3 class="font-semibold text-black dark:text-white mb-4">
+                  {year}
+                </h3>
+                <ul class="flex flex-col gap-4">
+                  {groupedProjects[year].map((project) => (
+                    <ProjectListRow project={project} />
+                  ))}
+                </ul>
+              </section>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </Container>
+</PageLayout>
